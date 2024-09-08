@@ -1,0 +1,156 @@
+@font-face {
+font-family: 'work_sansbold';
+src: url('../fonts/worksans-bold-webfont.eot');
+src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+url('../fonts/worksans-bold-webfont.woff') format('woff'),
+url('../fonts/worksans-bold-webfont.ttf') format('truetype'),
+url('../fonts/worksans-bold-webfont.svg#work_sansbold') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'work_sanslight';
+src: url('../fonts/worksans-light-webfont.eot');
+src: url('../fonts/worksans-light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/worksans-light-webfont.woff2') format('woff2'),
+url('../fonts/worksans-light-webfont.woff') format('woff'),
+url('../fonts/worksans-light-webfont.ttf') format('truetype'),
+url('../fonts/worksans-light-webfont.svg#work_sanslight') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'work_sansmedium';
+src: url('../fonts/worksans-medium-webfont.eot');
+src: url('../fonts/worksans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/worksans-medium-webfont.woff2') format('woff2'),
+url('../fonts/worksans-medium-webfont.woff') format('woff'),
+url('../fonts/worksans-medium-webfont.ttf') format('truetype'),
+url('../fonts/worksans-medium-webfont.svg#work_sansmedium') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'work_sansregular';
+src: url('../fonts/worksans-regular-webfont.eot');
+src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+url('../fonts/worksans-regular-webfont.woff') format('woff'),
+url('../fonts/worksans-regular-webfont.ttf') format('truetype'),
+url('../fonts/worksans-regular-webfont.svg#work_sansregular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'work_sanssemibold';
+src: url('../fonts/worksans-semibold-webfont.eot');
+src: url('../fonts/worksans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/worksans-semibold-webfont.woff2') format('woff2'),
+url('../fonts/worksans-semibold-webfont.woff') format('woff'),
+url('../fonts/worksans-semibold-webfont.ttf') format('truetype'),
+url('../fonts/worksans-semibold-webfont.svg#work_sanssemibold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+html {letter-spacing: 0.4px;width: 100%;}
+dl,dt,dd,ol,ul,li {margin: 0;padding: 0; padding-top: 5px;}
+
+
+
+
+
+/* cuntent page css start here*/   
+.gray-bg{background: #fff;}
+.terms-condi-main-block{margin: 50px 0;}
+.content-head-main{font-family: 'work_sanslight'; font-weight: 600; letter-spacing: 0.9px; font-size: 16px; color: #000; margin: -4px 0 17px; line-height: 25px; text-decoration: underline;}
+.content-head-main.no-bor{text-decoration: none; text-transform: lowercase;}
+.content-head {font-family: 'work_sansregular'; font-size: 16px; color: #000; margin: -4px 0 17px; line-height: 25px;}
+.content-head-para{margin: -9px 0 20px;}
+.content-head-para span{font-size: 14px; font-family: 'work_sanslight'; color: #343c41; line-height: 23px;}
+.content-head-para .head-para-bold{font-family: 'work_sansregular'; color: #000;}
+.content-head-para .head-para-bold.itlic{font-family: 'work_sanslight'; font-style: italic; color: #464e54; display: inline-block;}
+.content-head-para .conte-link a{color: #1026fb; display: inline-block;}
+.butets-lists {margin: -23px 0 18px 30px;}
+/*.butets-lists ul li{display: block;}*/
+.butets-lists.bold, .butets-lists.bold ul li{list-style-type: none;}
+.butets-lists ul, .butets-lists ul li{list-style-type: lower-alpha;}
+.butets-lists.inner ol, .butets-lists.inner ol.upp-roman li {list-style-type: upper-roman;}
+.butets-lists.inner ol, .butets-lists.inner ol.upp-roman.none li {list-style-type: none;}
+.butets-lists ul li span{font-size: 8px; color: #000; display: block; position: absolute; width: 20px; height: 20px; left: 0px; top: 6px; vertical-align: middle;}
+.butets-lists ul li {padding-left: 15px; font-size: 14px; font-family: 'work_sanslight'; color: #3f474d; position: relative; margin: 0; line-height: 22px;}
+.butets-lists.bold.butets-lists ul li{font-family: 'work_sansmedium'; color: #000;}
+.butets-lists.bold.butets-lists ul li span{font-size: 6px; top: 4px;}
+.butets-lists ul li .li-bold{font-family: 'work_sansregular'; display: inline-block; color: #000;}
+.butets-lists ul li .li-bold.italic{font-family: 'work_sanslight'; font-style: italic; color: #464e54;}
+.butets-lists.inner{margin: -4px 0 1px 5px;}
+
+.address-block{margin: 10px 0 30px;}
+.address-text span{font-size: 14px; font-family: 'work_sanslight'; color: #343c41; display: block; margin-bottom: 2px; line-height: 20px;}
+.address-text.bottom {margin-top: 10px;}
+.address-text.bottom .address-te-bold{font-family: 'work_sansregular'; color: #000; display: inline-block; margin-right: 20px;}
+.content-head.upper{font-family: 'work_sanslight'; font-weight: 600;}
+.content-head-para.mrgin span{margin-top: 20px;}
+.butets-lists ul li.black-reguler{color: #000; font-family: 'work_sansregular';}
+ /* cuntent page css end here*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1313px){
+
+    
+}
+
+
+
+
+
+@media all and (max-width:1199px){
+   
+}
+
+
+
+
+@media all and (max-width:991px){
+    
+
+}
+
+
+@media all and (max-width:767px){
+
+
+}
+
+@media all and (max-width:480px){
+
+
+}
+
+
+

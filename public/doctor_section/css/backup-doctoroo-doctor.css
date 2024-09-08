@@ -1,0 +1,27 @@
+/***************doctor flow starts here ******************************/
+/*******doctor common css starts here*******/
+.marbtm40px { margin-bottom:  40px;}
+.required_field { color:red !important; }
+
+
+
+
+/*******doctor common css ends here*******/
+.file-with-label {position: absolute; left: 0; top: 3px;}
+.file-with-label .btn{ width: 30px; height: 30px; padding: 0; border-radius: 50%; }
+.file-with-label .btn i{ font-size: 20px; line-height: 30px; -ms-transform: rotate(-37deg); /* IE 9 */ -webkit-transform: rotate(-37deg); /* Chrome, Safari, Opera */ transform: rotate(-37deg); }
+.new-file-input { position: relative; margin-top: 20px;}
+.new-file-input .file-path { width: 100%; padding-left: 40px; height: 40px; box-sizing: border-box;}
+.new-file-input .file-path-wrapper { padding-left: 0;}
+
+.submit-message{ font-size: 13px; width: 100%; display: block;}
+
+.select-wrapper .select-dropdown{max-height: 150px; }
+
+.select-wrapper .select-dropdown.multiple-select-dropdown li {position: relative; padding-left: 35px;}
+
+.select-wrapper .select-dropdown.multiple-select-dropdown [type="checkbox"] + label { top: 5px!important; left: 15px!important; height: 18px;}
+.select-wrapper .select-dropdown.dropdown-content.multiple-select-dropdown li > span{ padding: 10px 10px;}
+.select-wrapper .select-dropdown.dropdown-content.multiple-select-dropdown [type="checkbox"]:checked + label::before { top: -4px; left: -5px; width: 12px; height: 22px; border-top: 2px solid transparent; border-left: 2px solid transparent; border-right: 2px solid #22B14C; border-bottom: 2px solid #22B14C; -webkit-transform: rotate(40deg); transform: rotate(40deg); -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform-origin: 100% 100%; transform-origin: 100% 100%;}
+
+/***************doctor flow ends here ******************************/

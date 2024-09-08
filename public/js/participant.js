@@ -1,0 +1,1 @@
+var session=OT.initSession(sessionId),publisher=OT.initPublisher("publisher");session.connect(apiKey,token,function(s,e){s&&alert(s.message||s),session.publish(publisher)}),session.on("streamCreated",function(s){session.subscribe(s.stream,"subscribers",{insertMode:"append"})});

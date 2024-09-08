@@ -1,0 +1,91 @@
+/*! jQuery UI - v1.11.4 - 2015-03-11
+* http://jqueryui.com
+* Includes: core.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, draggable.css, menu.css, progressbar.css, resizable.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+
+#slider-price-range.ui-slider {
+position: relative;
+text-align: left;
+}
+#slider-price-range.ui-slider .ui-slider-handle {
+position: absolute;
+z-index: 2;
+width: 20px;
+height: 26px;
+cursor: default;
+-ms-touch-action: none;
+touch-action: none;
+}
+#slider-price-range.ui-slider .ui-slider-range {
+position: absolute;
+z-index: 1;
+font-size: .7em;
+display: block;
+border: 0;
+background-position: 0 0;
+}
+
+/* support: IE8 - See #6727 */
+#slider-price-range.ui-slider.ui-state-disabled .ui-slider-handle,
+#slider-price-range.ui-slider.ui-state-disabled .ui-slider-range {
+filter: inherit;
+}
+
+#slider-price-range.ui-slider-horizontal {
+height: 4px;background: #d3d3d3; border-radius: 10px;border: none;
+}
+#slider_price_range_txt .slider_price_max {
+font-size: 14px;color: #646d77;font-family: "robotolight",sans-serif;
+float: right;
+margin-top: 10px;
+}
+#slider_price_range_txt .slider_price_min{ margin-top:10px;font-size: 14px;color: #646d77;font-family: "robotolight",sans-serif;display: inline-block;}
+#slider-price-range.ui-slider-horizontal .ui-slider-handle {
+border-radius: 50%;
+height: 18px;
+margin-left: -0.6em;
+top: -6px;
+width: 18px;
+}
+.range-t {
+margin: 15px 0;
+}
+#slider-price-range.ui-slider-horizontal .ui-slider-range {
+top: 0;
+height: 100%;
+}
+#slider-price-range.ui-slider-horizontal .ui-slider-range-min {
+left: 0;
+}
+background: #d3d3d3 none repeat scroll 0 0;
+border: 0 none;
+color: #222222;
+}
+#slider-price-range.ui-slider-horizontal .ui-slider-range-max {
+right: 0;
+}
+
+#slider-price-range .ui-widget-header {
+background: #50ab50;
+border: 1px solid #50ab50 ;
+color: #222222;
+font-weight: bold;
+}
+
+
+
+
+
+#slider-price-range .ui-state-default {
+border: 4px solid #50ab50 !important;
+}
+#slider-price-range .ui-state-default, #slider-price-range .ui-widget-content .ui-state-default, #slider-price-range .ui-widget-header .ui-state-default {
+background: #fff;
+border: 10px solid #fff;
+color: #555555;
+font-weight: normal;
+}

@@ -1,0 +1,10 @@
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+storage/framework/logs/laravel.log
+config/database.php
